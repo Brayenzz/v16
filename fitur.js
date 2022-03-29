@@ -4041,6 +4041,7 @@ break
         freply(`*LANGUAGE ENGLISH*\n_group opened successfully by admin_\n\n*BAHASA INDONESIA*\n_grup berhasil dibuka oleh admin_`);
         Ramdani.groupSettingChange(from, GroupSettingChange.messageSend, false);
         break; 
+		case 'h':
                     case 'hidetag':        
                     if (!isRegist) return freply(mess.daftar)
                     if (isBanned) return freply(mess.banned)                
